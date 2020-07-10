@@ -7,7 +7,7 @@ if(vacationType === "musical"){
     destination = "New Orleans";
 }
 else if(vacationType === "tropical"){
-    destination = "beach vacation in Mexico";
+    destination = "a beach vacation in Mexico";
 }
 else if(vacationType === "adventurous"){
     destination = "whitewater rafting the Grand Canyon";
@@ -25,6 +25,6 @@ if(groupSize > 6){
     travelSuggestion = "charter flight";
 }
 
-let result = "Since you're in a group of "+groupSize+" going on a "+vacationType+" vacation, you should take a "+travelSuggestion+" to a "+destination;
+let result = "Since you're in a group of "+groupSize+" going on a "+vacationType+" vacation, you should take a "+travelSuggestion+" to "+destination;
 
 console.log(result);
