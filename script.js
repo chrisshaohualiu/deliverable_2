@@ -15,13 +15,13 @@ else if(vacationType === "adventurous"){
 
 let travelSuggestion;
 
-if(groupSize === 1 || groupSize === 2){
-    travelSuggestion = "first class";
+if(groupSize == 1 || groupSize == 2){
+    travelSuggestion = "first class flight";
 }
-if(groupSize>=3 && groupSize<=5){
+else if(groupSize>=3 && groupSize<=5){
     travelSuggestion = "helicopter";
 }
-if(groupSize > 6){
+else if(groupSize >= 6){
     travelSuggestion = "charter flight";
 }
 
